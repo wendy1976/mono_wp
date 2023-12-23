@@ -1,0 +1,35 @@
+ <!-- archive-product.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des Produits</title>
+    <!-- Ajoutez vos balises meta, liens de style, etc. ici -->
+</head>
+<body>
+
+    <header>
+        <h1>Liste des Produits</h1>
+    </header>
+
+    <section>
+        <!-- Boucle sur la liste des produits -->
+        {% for post in posts %}
+            <article>
+                <h2>{{ post.title }}</h2>
+                <p>Custom Field: {{ post.custom_field_name }}</p>
+                <!-- Ajoutez d'autres éléments ou personnalisez selon vos besoins -->
+            </article>
+        {% endfor %}
+    </section>
+
+    <footer>
+        <!-- Ajoutez votre pied de page ici -->
+    </footer>
+
+    <!-- Ajoutez vos balises de script, liens vers des fichiers JS, etc. ici -->
+
+</body>
+</html>

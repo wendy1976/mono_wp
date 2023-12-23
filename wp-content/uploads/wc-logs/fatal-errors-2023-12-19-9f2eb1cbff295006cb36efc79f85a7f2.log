@@ -1,0 +1,12 @@
+2023-12-19T08:50:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-admin\includes\class-wp-filesystem-direct.php à la ligne 260
+
+2023-12-19T08:53:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-12-19T08:53:40+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-12-19T08:54:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-12-19T08:54:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\class-wpdb.php à la ligne 1593
+
+2023-12-19T08:54:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+

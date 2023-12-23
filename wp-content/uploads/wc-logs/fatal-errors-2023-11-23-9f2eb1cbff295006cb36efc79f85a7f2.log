@@ -1,0 +1,174 @@
+2023-11-23T08:10:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\wamp64\www\mono_wp\wp-includes\pomo\mo.php on line 54
+
+2023-11-23T08:10:59+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-content\plugins\advanced-custom-fields\includes\acf-utility-functions.php à la ligne 153
+
+2023-11-23T09:51:50+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 19730432 bytes) dans C:\wamp64\www\mono_wp\wp-content\plugins\woocommerce\includes\wc-template-functions.php à la ligne 1332
+
+2023-11-23T09:54:24+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 39981072 bytes) dans C:\wamp64\www\mono_wp\wp-includes\shortcodes.php à la ligne 273
+
+2023-11-23T09:56:45+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 40763872 bytes) dans C:\wamp64\www\mono_wp\wp-includes\shortcodes.php à la ligne 273
+
+2023-11-23T10:06:45+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 42188392 bytes) dans C:\wamp64\www\mono_wp\wp-includes\shortcodes.php à la ligne 273
+
+2023-11-23T10:06:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-admin\includes\class-wp-internal-pointers.php à la ligne 176
+
+2023-11-23T10:08:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\plugin.php à la ligne 638
+
+2023-11-23T10:08:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 205
+
+2023-11-23T12:21:34+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\plugin.php à la ligne 205
+
+2023-11-23T12:21:35+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\rest-api\class-wp-rest-server.php à la ligne 939
+
+2023-11-23T12:21:35+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version1\class-wc-rest-products-v1-controller.php à la ligne 2364
+
+2023-11-23T12:21:35+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\pomo\translations.php à la ligne 92
+
+2023-11-23T12:21:35+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\rest-api\class-wp-rest-request.php à la ligne 335
+
+2023-11-23T12:22:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\l10n.php à la ligne 185
+
+2023-11-23T13:34:57+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:35:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:35:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:35:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:35:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:35:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:35:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:47:58+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\post.php à la ligne 2743
+
+2023-11-23T13:48:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:48:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:49:11+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:49:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:49:13+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:52:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:52:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:52:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:52:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:52:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:52:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:52:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:53:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:55:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:55:27+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:55:42+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:55:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:56:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:56:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:56:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:56:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:56:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:56:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T13:56:35+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php à la ligne 202
+
+2023-11-23T15:10:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\Api.php à la ligne 112
+
+2023-11-23T15:10:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T15:10:27+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T15:10:27+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T15:10:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T15:10:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T15:10:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T15:12:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T15:12:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T15:12:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T15:12:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\class-wp-block-supports.php à la ligne 69
+
+2023-11-23T15:12:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T15:12:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T16:59:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T16:59:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T16:59:45+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T16:59:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T16:59:52+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T16:59:52+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T16:59:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T16:59:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T16:59:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T16:59:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T17:05:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 557
+
+2023-11-23T17:05:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T17:06:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T17:06:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T17:06:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T17:06:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T17:07:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\rest-api\class-wp-rest-request.php à la ligne 985
+
+2023-11-23T17:07:13+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-content\plugins\woocommerce\src\Internal\Traits\AccessiblePrivateMethods.php à la ligne 158
+
+2023-11-23T17:09:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T17:09:52+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T17:09:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T17:10:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T17:10:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T17:10:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T17:10:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T17:10:10+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-11-23T17:10:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\class-wp-block-type-registry.php à la ligne 83
+

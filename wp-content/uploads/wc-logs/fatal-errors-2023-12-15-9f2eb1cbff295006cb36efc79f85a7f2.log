@@ -1,0 +1,112 @@
+2023-12-15T08:43:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-admin\includes\class-wp-filesystem-direct.php à la ligne 82
+
+2023-12-15T08:47:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\general-template.php à la ligne 1153
+
+2023-12-15T14:49:24+00:00 CRITICAL Uncaught Error: Class "GuzzleHttp\Client" not found in C:\wamp64\www\mono_wp\wp-content\plugins\open-food-facts-module\open-food-facts-module.php:206
+Stack trace:
+#0 C:\wamp64\www\mono_wp\wp-includes\rest-api\class-wp-rest-server.php(1193): get_products_data(Object(WP_REST_Request))
+#1 C:\wamp64\www\mono_wp\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/open-food-fact...', Array, NULL)
+#2 C:\wamp64\www\mono_wp\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\wamp64\www\mono_wp\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/open-food-fact...')
+#4 C:\wamp64\www\mono_wp\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\wamp64\www\mono_wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\mono_wp\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\mono_wp\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\wamp64\www\mono_wp\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\wamp64\www\mono_wp\wp-includes\functions.php(1336): WP->main('')
+#10 C:\wamp64\www\mono_wp\wp-blog-header.php(16): wp()
+#11 C:\wamp64\www\mono_wp\index.php(17): require('C:\\wamp64\\www\\m...')
+#12 {main}
+  thrown dans C:\wamp64\www\mono_wp\wp-content\plugins\open-food-facts-module\open-food-facts-module.php à la ligne 206
+
+2023-12-15T14:52:07+00:00 CRITICAL Uncaught Error: Class "GuzzleHttp\Client" not found in C:\wamp64\www\mono_wp\wp-content\plugins\open-food-facts-module\open-food-facts-module.php:206
+Stack trace:
+#0 C:\wamp64\www\mono_wp\wp-includes\rest-api\class-wp-rest-server.php(1193): get_products_data(Object(WP_REST_Request))
+#1 C:\wamp64\www\mono_wp\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/open-food-fact...', Array, NULL)
+#2 C:\wamp64\www\mono_wp\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\wamp64\www\mono_wp\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/open-food-fact...')
+#4 C:\wamp64\www\mono_wp\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\wamp64\www\mono_wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\mono_wp\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\mono_wp\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\wamp64\www\mono_wp\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\wamp64\www\mono_wp\wp-includes\functions.php(1336): WP->main('')
+#10 C:\wamp64\www\mono_wp\wp-blog-header.php(16): wp()
+#11 C:\wamp64\www\mono_wp\index.php(17): require('C:\\wamp64\\www\\m...')
+#12 {main}
+  thrown dans C:\wamp64\www\mono_wp\wp-content\plugins\open-food-facts-module\open-food-facts-module.php à la ligne 206
+
+2023-12-15T14:56:42+00:00 CRITICAL Uncaught Error: Class "GuzzleHttp\Client" not found in C:\wamp64\www\mono_wp\wp-content\plugins\open-food-facts-module\open-food-facts-module.php:206
+Stack trace:
+#0 C:\wamp64\www\mono_wp\wp-includes\rest-api\class-wp-rest-server.php(1193): get_products_data(Object(WP_REST_Request))
+#1 C:\wamp64\www\mono_wp\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/open-food-fact...', Array, NULL)
+#2 C:\wamp64\www\mono_wp\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\wamp64\www\mono_wp\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/open-food-fact...')
+#4 C:\wamp64\www\mono_wp\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\wamp64\www\mono_wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\mono_wp\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\mono_wp\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\wamp64\www\mono_wp\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\wamp64\www\mono_wp\wp-includes\functions.php(1336): WP->main('')
+#10 C:\wamp64\www\mono_wp\wp-blog-header.php(16): wp()
+#11 C:\wamp64\www\mono_wp\index.php(17): require('C:\\wamp64\\www\\m...')
+#12 {main}
+  thrown dans C:\wamp64\www\mono_wp\wp-content\plugins\open-food-facts-module\open-food-facts-module.php à la ligne 206
+
+2023-12-15T15:03:03+00:00 CRITICAL Uncaught Error: Class "GuzzleHttp\Client" not found in C:\wamp64\www\mono_wp\wp-content\plugins\open-food-facts-module\open-food-facts-module.php:206
+Stack trace:
+#0 C:\wamp64\www\mono_wp\wp-includes\rest-api\class-wp-rest-server.php(1193): get_products_data(Object(WP_REST_Request))
+#1 C:\wamp64\www\mono_wp\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/open-food-fact...', Array, NULL)
+#2 C:\wamp64\www\mono_wp\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\wamp64\www\mono_wp\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/open-food-fact...')
+#4 C:\wamp64\www\mono_wp\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\wamp64\www\mono_wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\mono_wp\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\mono_wp\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\wamp64\www\mono_wp\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\wamp64\www\mono_wp\wp-includes\functions.php(1336): WP->main('')
+#10 C:\wamp64\www\mono_wp\wp-blog-header.php(16): wp()
+#11 C:\wamp64\www\mono_wp\index.php(17): require('C:\\wamp64\\www\\m...')
+#12 {main}
+  thrown dans C:\wamp64\www\mono_wp\wp-content\plugins\open-food-facts-module\open-food-facts-module.php à la ligne 206
+
+2023-12-15T15:56:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\class-wp-hook.php à la ligne 311
+
+2023-12-15T15:56:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-12-15T15:56:35+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-12-15T15:56:42+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-12-15T15:56:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-12-15T16:00:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-admin\includes\class-wp-filesystem-direct.php à la ligne 82
+
+2023-12-15T16:00:50+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-12-15T16:00:57+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-12-15T16:00:59+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-12-15T16:01:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 506
+
+2023-12-15T16:14:40+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 205
+
+2023-12-15T16:14:52+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 205
+
+2023-12-15T16:15:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 205
+
+2023-12-15T16:19:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 205
+
+2023-12-15T16:20:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 205
+
+2023-12-15T16:24:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 205
+
+2023-12-15T16:25:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 205
+
+2023-12-15T16:26:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\Requests\src\Transport\Curl.php à la ligne 205
+
+2023-12-15T16:29:44+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-includes\pomo\translations.php à la ligne 101
+
+2023-12-15T16:29:50+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\wamp64\www\mono_wp\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version3\class-wc-rest-controller.php à la ligne 89
+
