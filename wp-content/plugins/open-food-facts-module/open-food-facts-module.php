@@ -112,6 +112,7 @@ function inserer_produits_au_demarrage() {
 
 register_activation_hook(__FILE__, 'inserer_produits_au_demarrage');
 
+//Interface 1 : Affichage des détails étendus d'un produit
 function afficher_details_etendus_produit_shortcode($atts) {
     global $post, $wpdb;
 
@@ -243,7 +244,7 @@ function modifier_produit() {
 }
 
 
-/// Interface 2 : Listing de produits sous forme de tableau
+// Interface 2 : Listing de produits sous forme de tableau
 function afficher_produits_shortcode($atts) {
     global $wpdb;
     $nom_table = $wpdb->prefix . 'produits';
@@ -251,10 +252,18 @@ function afficher_produits_shortcode($atts) {
     // Traitement des actions
     traiter_actions_produits();
 
+    $output = '';
+
+    // Formulaire d'ajout
+    $output .= '<form method="post" action="' . esc_url(admin_url('admin-post.php')) . '" enctype="multipart/form-data">';
+    $output .= '<input type="hidden" name="action" value="ajouter_produit">';
+    $output .= '<label for="code_barre">Code-barres Open Food Facts :</label>';
+    $output .= '<input type="text" name="code_barre" id="code_barre" placeholder="Code-barres">';
+    $output .= '<input type="submit" value="Ajouter un nouveau produit">';
+    $output .= '</form>';
+
     // Récupérer tous les produits de la table
     $produits = $wpdb->get_results("SELECT * FROM $nom_table");
-
-    $output = '';
 
     // Tableau pour afficher les produits
     $output .= '<table class="liste-produits">';
@@ -263,7 +272,6 @@ function afficher_produits_shortcode($atts) {
     $output .= '<th>Image</th>';
     $output .= '<th>Référence</th>';
     $output .= '<th>Nom</th>';
-    $output .= '<th>Ajouter</th>';
     $output .= '<th>Supprimer</th>';
     $output .= '</tr>';
     $output .= '</thead>';
@@ -275,15 +283,6 @@ function afficher_produits_shortcode($atts) {
         $output .= '<td><img src="' . $produit->image_produit . '" alt="' . $produit->description_produit . '" style="width: 50px;"></td>';
         $output .= '<td>' . $produit->reference_produit . '</td>';
         $output .= '<td>' . $produit->nom_produit . '</td>';
-
-        // Formulaire d'ajout
-        $output .= '<td>';
-        $output .= '<form method="post" action="' . esc_url(admin_url('admin-post.php')) . '">';
-        $output .= '<input type="hidden" name="action" value="ajouter_produit">';
-        $output .= '<input type="hidden" name="nom_produit" value="' . esc_attr($produit->nom_produit) . '">';
-        $output .= '<input type="submit" value="Ajouter">';
-        $output .= '</form>';
-        $output .= '</td>';
 
         // Formulaire de suppression
         $output .= '<td>';
@@ -303,6 +302,7 @@ function afficher_produits_shortcode($atts) {
     return $output;
 }
 add_shortcode('afficher_produits', 'afficher_produits_shortcode');
+
 
 // Fonction pour récupérer les détails du produit par ID
 function get_produit_par_id($produit_id) {
@@ -334,13 +334,10 @@ function traiter_actions_produits() {
 
                 break;
 
-            case 'ajouter_produit':
-                $nom_produit = $_POST['nom_produit'];
-
-                // Code pour ajouter un nouveau produit dans la base de données
-                inserer_produit_dans_bdd_et_woocommerce($nom_produit);
-
-                break;
+                case 'ajouter_produit':
+                    $code_barre = sanitize_text_field($_POST['code_barre']);
+                    inserer_produit_dans_bdd($code_barre);
+                    break;
 
             case 'supprimer_produit':
                 $produit_id = $_POST['produit_id'];
