@@ -249,6 +249,9 @@ function afficher_produits_shortcode($atts) {
     global $wpdb;
     $nom_table = $wpdb->prefix . 'produits';
 
+    // Ajoutez un message de débogage
+    error_log('Début de la fonction afficher_produits_shortcode');
+
     // Traitement des actions
     traiter_actions_produits();
 
@@ -299,6 +302,9 @@ function afficher_produits_shortcode($atts) {
     $output .= '</tbody>';
     $output .= '</table>';
 
+    // Ajoutez un message de débogage
+    error_log('Fin de la fonction afficher_produits_shortcode');
+
     return $output;
 }
 add_shortcode('afficher_produits', 'afficher_produits_shortcode');
@@ -323,6 +329,9 @@ function traiter_actions_produits() {
                 $produit_id = $_POST['produit_id'];
                 $nouveau_nom_produit = $_POST['nouveau_nom_produit'];
 
+                // Ajoutez un message de débogage
+                error_log('Début de la modification de produit. ID: ' . $produit_id);
+
                 // Code pour mettre à jour le nom du produit dans la base de données
                 global $wpdb;
                 $nom_table = $wpdb->prefix . 'produits';
@@ -332,15 +341,25 @@ function traiter_actions_produits() {
                     array('id' => $produit_id)
                 );
 
+                // Ajoutez un message de débogage
+                error_log('Fin de la modification de produit.');
+
                 break;
 
-                case 'ajouter_produit':
-                    $code_barre = sanitize_text_field($_POST['code_barre']);
-                    inserer_produit_dans_bdd($code_barre);
-                    break;
+            case 'ajouter_produit':
+                $code_barre = sanitize_text_field($_POST['code_barre']);
+
+                // Ajoutez un message de débogage
+                error_log('Ajout d\'un nouveau produit. Code-barres: ' . $code_barre);
+
+                inserer_produit_dans_bdd($code_barre);
+                break;
 
             case 'supprimer_produit':
                 $produit_id = $_POST['produit_id'];
+
+                // Ajoutez un message de débogage
+                error_log('Suppression d\'un produit. ID: ' . $produit_id);
 
                 // Code pour supprimer le produit de la base de données
                 global $wpdb;
@@ -349,6 +368,9 @@ function traiter_actions_produits() {
                     $nom_table,
                     array('id' => $produit_id)
                 );
+
+                // Ajoutez un message de débogage
+                error_log('Fin de la suppression de produit.');
 
                 break;
 
@@ -363,6 +385,4 @@ function traiter_actions_produits() {
 
 add_action('admin_post_nopriv', 'traiter_actions_produits');
 add_action('admin_post', 'traiter_actions_produits');
-
-
 
